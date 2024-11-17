@@ -1,0 +1,12 @@
+.vfrc-launcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radii-round);
+    background-color: var(--colors-primary);
+    transition: background-color 150ms, box-shadow 150ms;
+    height: var(--sizes-xl);
+    width: var(--sizes-xl);
+    border: 1px solid var(--colors-shadow4);
+    box-shadow: 0 1px 6px var(--shadows-shadow6), 0 2px 24px var(--shadows-shadow8);
+   }
