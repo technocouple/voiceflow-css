@@ -13,3 +13,16 @@
     width: 123px;
     border-radius: 28px;
 }
+
+.vfrc-launcher img {
+    display: none;
+}
+
+.vfrc-launcher::after {
+    content: "Ask Buddy";
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: 'Helvetica, Arial, sans-serif';
+}
